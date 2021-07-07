@@ -1,4 +1,4 @@
-# ecc
+# ECC
 
 A new Flutter project.
 
