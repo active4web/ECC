@@ -21,6 +21,7 @@ environment:
   sdk: ">=2.12.0 <3.0.0"
 
 dependencies:
+  fl_chart: ^0.36.2
   flutter:
     sdk: flutter
 
@@ -47,6 +48,12 @@ flutter:
   assets:
     - assets/FirstScreen.png
     - assets/login_background.png
+    - assets/user.png
+    - assets/home_icon.png
+    - assets/workflow.png
+    - assets/attendance.png
+    - assets/projects.png
+    - assets/more.png
 
   # To add assets to your application, add an assets section, like this:
   # assets:
