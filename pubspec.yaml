@@ -57,6 +57,12 @@ flutter:
     - assets/attendance.png
     - assets/projects.png
     - assets/more.png
+    - assets/hr.png
+    - assets/finance.png
+    - assets/purchasing.png
+    - assets/reports.png
+    - assets/notifications.png
+    - assets/notification_icon.png
 
   # To add assets to your application, add an assets section, like this:
   # assets:

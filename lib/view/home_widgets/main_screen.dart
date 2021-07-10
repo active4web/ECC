@@ -31,7 +31,7 @@ class _MainScreenState extends State<MainScreen> {
                   // The header
                   Container(
                     padding: EdgeInsets.all(_screenUtil.setSp(50)),
-                    height: _screenUtil.setHeight(700),
+                    height: _screenUtil.setHeight(900),
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.only(
                         bottomLeft: Radius.circular(_screenUtil.setSp(50)),
@@ -50,6 +50,42 @@ class _MainScreenState extends State<MainScreen> {
                     ),
                     child: Column(
                       children: [
+                        // The notification part
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.end,
+                          children: [
+                            Stack(
+                              children: [
+                                // the notification icon
+                                Image.asset(
+                                  'assets/notification_icon.png',
+                                  height: _screenUtil.setHeight(100),
+                                  width: _screenUtil.setWidth(100),
+                                ),
+
+                                // the notification indication circle
+                                Positioned(
+                                  right: _screenUtil.setWidth(10),
+                                  top: 0.0,
+                                  child: Container(
+                                    height: _screenUtil.setWidth(30),
+                                    width: _screenUtil.setHeight(30),
+                                    decoration: BoxDecoration(
+                                      shape: BoxShape.circle,
+                                      color: Colors.orange,
+                                    ),
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ],
+                        ),
+
+                        // Some Space
+                        SizedBox(
+                          height: _screenUtil.setHeight(50),
+                        ),
+
                         // Employee image and info
                         Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
