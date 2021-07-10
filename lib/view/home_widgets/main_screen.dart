@@ -72,7 +72,7 @@ class _MainScreenState extends State<MainScreen> {
                                     width: _screenUtil.setHeight(30),
                                     decoration: BoxDecoration(
                                       shape: BoxShape.circle,
-                                      color: Colors.orange,
+                                      color: Color(0xffe6b600),
                                     ),
                                   ),
                                 ),
